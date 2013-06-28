@@ -1,0 +1,18 @@
+# PostgreSQL configuration 
+production:
+  adapter: postgresql
+  database: MYDATABASE
+  host: localhost
+  username: postgres
+  password: "postgres"
+  encoding: utf8
+  schema_search_path: app
+
+development:
+  adapter: postgresql
+  database: MYDATABASE
+  host: localhost
+  username: postgres
+  password: "postgres"
+  encoding: utf8
+  schema_search_path: dev
