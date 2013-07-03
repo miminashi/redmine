@@ -35,15 +35,15 @@ dpkg-reconfigure locales
 # Run provisioning
 # ------------------------------------------------------------------------------
 echo "Installing packages ... this may take some time."
-apt-get -y -qq install 				\
-	vim git-core 					\
+apt-get -y -qq install git-core 	\
 	ruby1.9.1-dev libpgsql-ruby 	\
 	libmagickwand-dev 				\
 	postgresql-server-dev-all 		\
 	postgresql-9.1-postgis
 
-gem1.9.1 install rails
-gem1.9.1 install rmagick
+gem1.9.1 install bundler
+#gem1.9.1 install rails
+#gem1.9.1 install rmagick
 
 # copy pg_hba.conf file and restart PostgreSQL
 cd /vagrant
