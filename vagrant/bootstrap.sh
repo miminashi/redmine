@@ -1,7 +1,7 @@
 #!/bin/bash
 # ------------------------------------------------------------------------------
 # Vagrant - Virtualized Development 
-# Copyright(c) pgRouting Contributors
+# Copyright(c) 2013 Georepublic
 #
 # Virtual environment bootstrap script
 # ------------------------------------------------------------------------------
